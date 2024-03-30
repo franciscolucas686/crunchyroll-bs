@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background-color: #282a2e;
+    color: #dadada;
+}
+
+li {
+    cursor: pointer;
+}
+.navbar-brands {
+    width: 8.5em;
+}
+
+
+#links .nav-item {
+    padding: 1em;
+}
+
+#actions .nav-item {
+    padding: .4em;
+}
+
+.nav-pills li:hover {
+    background-color: #131416;
+}
+
+.nav-pills li img{
+    width: 2.8em;
+}
+
+#coroa {
+    height: 1.5em;
+}
+
+#premium{
+    display: flex;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #282a2e;
+}
+
+
+.modal-header h3{
+    margin-bottom: 0;
+    padding-left: .5em;
+}
+
+
+.carousel-item img {
+    width: 100vw;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.caption {
+    width: 25vw;
+    height: 45%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+.caption img {
+    width: 100%;
+}
+
+
+h6{
+    padding-top: 2em;
+    color: #585757;
+}
+
+p{
+    color: #DADADA;
+}
+
+.caption button {
+    background-color: #F47521;
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 1em;
+}
+
+.caption button>img {  
+    width: 1.5em;
+    padding-right: .4em;
+}
+
+.btn-warning {
+    --bs-btn-bg: #F47521;
+    --bs-btn-border-color: #F47521;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #fd9f60;
+    --bs-btn-hover-border-color: #fd9f60;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 65%;
+    left:-64%;
+}
+
+.carousel-indicators .active{
+    background-color: #F47521;
+}
+

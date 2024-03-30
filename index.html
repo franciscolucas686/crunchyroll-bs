@@ -1,25 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="lib/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="main.css">
     <title>Crunchyroll - Assista a Animes, Jogue Games e Compre Online</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <img src="" alt="">
-        </nav>
-    </header>
+        <div class="container">
+            <div class="navbar p-0">
+                <a href="#"><img src="icons/crunchyroll-logo-nome.png" title="Logo da Crunchyroll"
+                        alt="Logo Crunchyroll" class="navbar-brands"></a>
+                <nav id="links">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item dropdown-center">
+                            <div data-bs-toggle="dropdown" class="dropdown-toggle">
+                                Navegar
+                            </div>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item">
+                                    Populares
+                                </li>
+                                <li class="dropdown-item">
+                                    Novidades
+                                </li>
+                                <li class="dropdown-item">
+                                    A-Z
+                                </li>
+                                <li class="dropdown-item">
+                                    Simulcasts da Temporada
+                                </li>
+                                <li class="dropdown-item">
+                                    Calendário de Lançamentos
+                                </li>
+                                <li class="dropdown-item">
+                                    Videoclipes & Shows
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">Jogos</li>
+                        <li class="nav-item dropdown-center">
+                            <div class="dropdown-toggle" data-bs-toggle="dropdown">Notícias</div>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item">
+                                    Todas as Notícias
+                                </li>
+                                <li class="dropdown-item">
+                                    Anime Awards
+                                </li>
+                                <li class="dropdown-item">
+                                    Eventos & Experiencias
+                                </li>
 
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="actions">
+                    <ul class="nav nav-pills">
+                        <li data-bs-toggle="modal" data-bs-target="#14-dias" class="nav-item" id="premium"><img
+                                src="icons/crown-full-gold.svg" alt="icone Coroa" id="coroa">
+                            TESTE GRÁTIS PREMIUM
+                            <div class="modal fade" id="14-dias">
+                                <div class="modal-dialog">
+                                    <div class="modal-content menu-dark">
+                                        <div class="modal-header">
+                                            <img src="icons/crown-outline-grey.svg" alt="Coroa cinza">
+                                            <h3>Teste Gratuito de 14 Dias</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>O Premium inclui acesso ilimitado a todos os animes, sem anúncios, com
+                                                novos lançamentos logo após a exibição no Japão. Teste hoje mesmo!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning"
+                                                data-bs-dismiss="modal">Aderir</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><img src="icons/search-gray.svg" alt="ícone lupa"></li>
+                        <li class="nav-item"><img src="icons/bookmark-outline-grey.png" alt="ícone indicador"></li>
+                        <li class="nav-item"><img src="icons/user-gray.svg" alt="ícone perfil"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="box">
+        <section id="carousel-anime" data-bs-ride="carousel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div data-bs-interval="50000" class="carousel-item active">
+                    <img src="carousel-img/one-peace/one-peace-landscape.webp" alt="Anime 1">
+                    <div class="caption">
+                        <img src="carousel-img/one-peace/one-peace-tittle.webp" alt="Titulo anime 1">
+                        <h6>Dub | Leg</h6>
+                        <p>Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos
+                            Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas
+                            palavras...</p>
+                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div data-bs-interval="50000" class="carousel-item">
+                    <img src="carousel-img/solo-leveling/solo-leveling-landscape.webp" alt="Anime 2">
+                    <div class="caption">
+                        <img src="carousel-img/solo-leveling/solo-leveling-tittle.webp" alt="Titulo anime 2">
+                        <h6>Dub | Leg</h6>
+                        <p>Há mais de uma década, surgiu uma misteriosa passagem chamada "portal", que conecta este mundo a
+                            uma dimensão diferente, o que fez com que pessoas despertassem poderes únicos…</p>
+                            <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div data-bs-interval="50000" class="carousel-item">
+                    <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-landscape.webp" alt="Anime 3">
+                    <div class="caption">
+                        <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-tittle.webp"
+                            alt="Titulo anime 3">
+                        <h6>Dub | Leg</h6>
+                        <p>Kiyotaka Ayanokouji acaba de se matricular no Colégio Tokyo Koudo Ikusei, onde dizem que 100% dos
+                            seus alunos entram na faculdade ou arranjam um bom emprego.Infelizmente, ele vai parar na sala
+                            1-D, onde ficam todos... </p>
+                            <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div data-bs-interval="50000" class="carousel-item">
+                    <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-landscape.webp" alt="Anime 4">
+                    <div class="caption">
+                        <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-tittle.webp"
+                            alt="Titulo anime 4">
+                        <h6>Dub | Leg</h6>
+                        <p>Tudo começou com as "17 Origens", cujos poderes foram transmitidos a indivíduos que ainda existem em todo o mundo nos dias de hoje. Um homem misterioso carregando um caixão e uma garota  </p>
+                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div data-bs-interval="50000" class="carousel-item">
+                    <img src="carousel-img/villainess-lv99/villainess-lv99-tittle-landscape.webp" alt="Anime 5">
+                    <div class="caption">
+                        <img src="carousel-img/villainess-lv99/villainess-lv99-tittle.webp" alt="Titulo anime 5">
+                        <h6>Dub | Leg</h6>
+                        <p>Essa estudante universitária só quer uma vida tranquila. Então, quando renasce como Yumiella, a vilã oculta de um jogo otome, ela não fica muito empolgada… Ainda ansiando por paz, ela abandona suas tarefas...</p>
+                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div data-bs-interval="50000" class="carousel-item">
+                    <img src="carousel-img/cherry-magic/cherry-magic-landscape.webp" alt="Anime 6">
+                    <div class="caption">
+                        <img src="carousel-img/cherry-magic/cherry-magic-tittle.webp" alt="Titulo anime 6">
+                        <h6>Dub | Leg</h6>
+                        <p>No aniversário de 30 anos de Adachi, que ainda é virgem, ele recebeu um presente inusitado: a habilidade de ler a mente de qualquer pessoa que ele toque. Refletindo sobre o que fazer com esse poder... </p>
+                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-anime" data-bs-slide="prev" class="carousel-control-prev w-0" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-anime" data-bs-slide="next" class="carousel-control-next w-0" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+    </div>
+    <h2>Assista de graça!</h2>
+    <section>
+
+    </section>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

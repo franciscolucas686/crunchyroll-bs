@@ -53,7 +53,6 @@ li {
     padding-left: .5em;
 }
 
-
 .carousel-item img {
     width: 100vw;
 }
@@ -77,7 +76,7 @@ li {
 
 h6{
     padding-top: 2em;
-    color: #585757;
+    color: #7c7a7a;
 }
 
 p{
@@ -118,4 +117,18 @@ p{
 .carousel-indicators .active{
     background-color: #F47521;
 }
+
+#grid{
+    background-color: #000;
+    color: #DADADA;
+}
+
+#grid h2 {
+    font-weight: bold;
+}
+
+#grid p {
+    color: #7c7a7a;
+}
+
 

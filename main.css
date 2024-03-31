@@ -149,6 +149,7 @@ p{
 
 .card-header {
     text-align: center;
+    font-weight: bold;
 }
 .card-header h6 {
     margin-left: .7em;

@@ -96,6 +96,8 @@ p{
 }
 
 .btn-warning {
+    border-radius: 0;
+    font-weight: bold;
     --bs-btn-bg: #F47521;
     --bs-btn-border-color: #F47521;
     --bs-btn-hover-color: #000;
@@ -177,4 +179,32 @@ p{
 
 .card-body a img {
     width: 1.5em;
+}
+
+#cat-end {
+    color: #DADADA;
+    background-color: #000000;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.box {
+    text-align: center;
+    font-size: .5em;
+}
+
+.bottom {
+    color: #F47521;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #F47521;
+    --bs-btn-hover-color: #f7b183;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #f7b180;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
 }

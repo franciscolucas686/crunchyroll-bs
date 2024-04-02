@@ -25,10 +25,8 @@
                         alt="Logo Crunchyroll" class="navbar-brands"></a>
                 <nav id="links">
                     <ul class="nav nav-pills">
-                        <li class="nav-item dropdown-center">
-                            <div data-bs-toggle="dropdown" class="dropdown-toggle">
+                        <li class="nav-item dropdown-center dropdown-toggle" data-bs-toggle="dropdown">
                                 Navegar
-                            </div>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li class="dropdown-item">
                                     Populares
@@ -51,22 +49,22 @@
                             </ul>
                         </li>
                         <li class="nav-item">Jogos</li>
-                        <li class="nav-item dropdown-center">
-                            <div class="dropdown-toggle" data-bs-toggle="dropdown">Notícias</div>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li class="dropdown-item">
-                                    Todas as Notícias
-                                </li>
-                                <li class="dropdown-item">
-                                    Anime Awards
-                                </li>
-                                <li class="dropdown-item">
-                                    Eventos & Experiencias
-                                </li>
-
-                            </ul>
-
-                        </li>
+                        <div class="dropdown">
+                            <li class="nav-item dropdown-toggle" data-bs-toggle="dropdown">
+                                Notícias
+                                <ul class="dropdown-menu  dropdown-menu-dark">
+                                    <li class="dropdown-item">
+                                        Todas as Notícias
+                                    </li>
+                                    <li class="dropdown-item">
+                                        Anime Awards
+                                    </li>
+                                    <li class="dropdown-item">
+                                        Eventos & Experiencias
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
                     </ul>
                 </nav>
                 <nav id="actions">
@@ -191,7 +189,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            JUJUTSU KAISEN <h6>4.9</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">JUJUTSU KAISEN</h5> <h6>4.9</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/jujustu-kaisen.jpe" alt="jujutsu kaisen">
                         <div class="card-body">
@@ -204,7 +202,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            CHAINSAW MAN <h6>4.8</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">CHAINSAW MAN</h5> <h6>4.8</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/chainsaw-man.jpe" alt="chainsaw man">
                         <div class="card-body">
@@ -217,7 +215,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            BUNGO STRAY <h6>4.9</h6><img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">BUNGO STRAY</h5> <h6>4.9</h6><img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/bungo-stray-dogs.jpe" alt="bungo stray dogs">
                         <div class="card-body">
@@ -232,7 +230,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            ONE PIECE <h6>5.0</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">ONE PIECE</h5> <h6>5.0</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/one-peace-grid.jpe" alt="One Peace">
                         <div class="card-body">
@@ -245,7 +243,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            CODE GEASS <h6>4.7</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">CODE GEASS</h5> <h6>4.7</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/code-geass.jpe" alt="chainsaw man">
                         <div class="card-body">
@@ -258,7 +256,7 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            VINLAND SAGA <h6>4.8</h6><img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">VINLAND SAGA</h5> <h6>4.8</h6><img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/vinland-saga.jpe" alt="bungo stray dogs">
                         <div class="card-body">
@@ -271,25 +269,52 @@
             </div>
         </div>
     </section>
-    <section id="cat-end">
-        <div class="container end">
-            <div class="box">
-                <img src="icons/yuzu.png" alt="Gato preguiçoso">
-                <h2>Ainda está procurando algo pra assistir?</h2>
-                <h2>Confira o nosso acervo completo</h2>
-                <button type="button" class="btn btn btn-warning bottom">VER TUDO</button>
-            </div>
-        </div>
-    </section>
-
     <footer>
-        <div class="container">
-            <img src="icons/sony_pictures_logo.png" alt="Sony logo"><h4>&#169; Crunchyroll, LLC</h4>
-            <button type="button">PORTUGUES(BRASIL)</button>
-        </div>
+    <div class="gradient">
+        <section id="cat-end">
+            <div class="container sleep">
+                <div class="box">
+                    <img src="icons/yuzu.png" alt="Gato preguiçoso">
+                    <h2>Ainda está procurando algo pra assistir?</h2>
+                    <h2>Confira o nosso acervo completo</h2>
+                    <button type="button" class="btn btn-warning bottom">VER TUDO</button>
+                </div>
+            </div>
+        </section>
+            <div class="flex">
+                <div class="container end">
+                    <img src="icons/sony_pictures_logo.png" alt="Sony logo">
+                    <h4 id="nome">&#169; Crunchyroll, LLC</h4>
+                    <div class="btn-group dropup">
+                        <button data-bs-toggle="dropdown" id="language"  class="dropdown-toggle">
+                            PORTUGUÊS (BRASIL)
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li class="dropdown-item">
+                                <a href="#">Deutsch</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">English (US)</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Español (España)</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Français (France)</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Italiano</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Português (Portugal)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
     </footer>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

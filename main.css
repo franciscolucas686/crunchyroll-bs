@@ -104,7 +104,7 @@ p{
 
 .caption button>img {  
     width: 1.5em;
-    padding-right: .4em;
+    padding-right: .5em;
 }
 
 .btn-warning {
@@ -318,4 +318,83 @@ p{
 .dropup ul li >a{
     text-decoration: none;
     color: #DADADA;
+}
+
+@media screen and (max-width: 640px){
+    header{
+        padding-top: .5em;
+    }
+
+    .navbar a img {
+        content: url(icons/crunchyroll-icon.png);
+        width: 2.5em;
+    }
+
+    .navbar-toggler {
+        order: 1;
+    }
+
+    #premium{
+        display: none;
+    }
+
+    #first-img img{
+        content: url(carousel-img/one-peace/one-peace-vertical.webp);
+    }
+
+    #second-img img{
+        content: url(carousel-img/solo-leveling/solo-leveling-vertical.webp);
+    }
+
+    #third-img img{
+        content: url(carousel-img/class-room-of-the-elite/class-room-of-the-elite-vertical.webp);
+    }
+
+    #fourth-img img{
+        content: url(carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-vertical.webp);
+    }
+
+    #fifth-img img{
+        content: url(carousel-img/villainess-lv99/villainess-lv99-tittle-vertical.webp);
+    }
+
+    #sixth-img img{
+        content: url(carousel-img/cherry-magic/cherry-magic-vertical.webp);
+    }
+
+    .carousel-item img {
+        width: 100vw;
+    }
+    
+    .caption {
+        width: 100vw;
+    }
+    
+    .caption img {
+        display: none;
+    }
+
+    .caption>p {
+        display: none;
+    }
+
+    .caption button {
+        width: 90%;
+    }
+
+    .caption button>img {  
+        width: 
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+
+    .alert {
+        display: none;
+    }
 }

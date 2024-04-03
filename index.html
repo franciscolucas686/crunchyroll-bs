@@ -20,13 +20,16 @@
 <body>
     <header>
         <div class="container">
-            <div class="navbar p-0">
+            <div class="navbar navbar-expand-lg navbar-dark p-0">
                 <a href="#"><img src="icons/crunchyroll-logo-nome.png" title="Logo da Crunchyroll"
                         alt="Logo Crunchyroll" class="navbar-brands"></a>
-                <nav id="links">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#links">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="links" class="collapse navbar-collapse">
                     <ul class="nav nav-pills">
                         <li class="nav-item dropdown-center dropdown-toggle" data-bs-toggle="dropdown">
-                                Navegar
+                            Navegar
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li class="dropdown-item">
                                     Populares
@@ -101,89 +104,102 @@
             </div>
         </div>
     </header>
-        <section id="carousel-anime" data-bs-ride="carousel" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-                <div data-bs-interval="2000" class="carousel-item active">
-                    <img src="carousel-img/one-peace/one-peace-landscape.webp" alt="Anime 1">
-                    <div class="caption">
-                        <img src="carousel-img/one-peace/one-peace-tittle.webp" alt="Titulo anime 1">
-                        <h6>Dub | Leg</h6>
-                        <p>Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos
-                            Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas
-                            palavras...</p>
-                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="carousel-img/solo-leveling/solo-leveling-landscape.webp" alt="Anime 2">
-                    <div class="caption">
-                        <img src="carousel-img/solo-leveling/solo-leveling-tittle.webp" alt="Titulo anime 2">
-                        <h6>Dub | Leg</h6>
-                        <p>Há mais de uma década, surgiu uma misteriosa passagem chamada "portal", que conecta este mundo a
-                            uma dimensão diferente, o que fez com que pessoas despertassem poderes únicos…</p>
-                            <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-landscape.webp" alt="Anime 3">
-                    <div class="caption">
-                        <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-tittle.webp"
-                            alt="Titulo anime 3">
-                        <h6>Dub | Leg</h6>
-                        <p>Kiyotaka Ayanokouji acaba de se matricular no Colégio Tokyo Koudo Ikusei, onde dizem que 100% dos
-                            seus alunos entram na faculdade ou arranjam um bom emprego.Infelizmente, ele vai parar na sala
-                            1-D, onde ficam todos... </p>
-                            <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-landscape.webp" alt="Anime 4">
-                    <div class="caption">
-                        <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-tittle.webp"
-                            alt="Titulo anime 4">
-                        <h6>Dub | Leg</h6>
-                        <p>Tudo começou com as "17 Origens", cujos poderes foram transmitidos a indivíduos que ainda existem em todo o mundo nos dias de hoje. Um homem misterioso carregando um caixão e uma garota  </p>
-                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="carousel-img/villainess-lv99/villainess-lv99-tittle-landscape.webp" alt="Anime 5">
-                    <div class="caption">
-                        <img src="carousel-img/villainess-lv99/villainess-lv99-tittle.webp" alt="Titulo anime 5">
-                        <h6>Dub | Leg</h6>
-                        <p>Essa estudante universitária só quer uma vida tranquila. Então, quando renasce como Yumiella, a vilã oculta de um jogo otome, ela não fica muito empolgada… Ainda ansiando por paz, ela abandona suas tarefas...</p>
-                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="carousel-img/cherry-magic/cherry-magic-landscape.webp" alt="Anime 6">
-                    <div class="caption">
-                        <img src="carousel-img/cherry-magic/cherry-magic-tittle.webp" alt="Titulo anime 6">
-                        <h6>Dub | Leg</h6>
-                        <p>No aniversário de 30 anos de Adachi, que ainda é virgem, ele recebeu um presente inusitado: a habilidade de ler a mente de qualquer pessoa que ele toque. Refletindo sobre o que fazer com esse poder... </p>
-                        <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A ASSITIR S1 E1</button>
-                    </div>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="4"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="5"></button>
+    <section id="carousel-anime" data-bs-ride="carousel" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active" id="first-img">
+                <img src="carousel-img/one-peace/one-peace-landscape.webp" alt="Anime 1">
+                <div class="caption">
+                    <img src="carousel-img/one-peace/one-peace-tittle.webp" alt="Titulo anime 1">
+                    <h6>Dub | Leg</h6>
+                    <p>Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos
+                        Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas
+                        palavras...</p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
                 </div>
             </div>
-            <button data-bs-target="#carousel-anime" data-bs-slide="prev" class="carousel-control-prev w-0" type="button">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button data-bs-target="#carousel-anime" data-bs-slide="next" class="carousel-control-next w-0" type="button">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </section>
+            <div data-bs-interval="3000" class="carousel-item" id="second-img">
+                <img src="carousel-img/solo-leveling/solo-leveling-landscape.webp" alt="Anime 2">
+                <div class="caption">
+                    <img src="carousel-img/solo-leveling/solo-leveling-tittle.webp" alt="Titulo anime 2">
+                    <h6>Dub | Leg</h6>
+                    <p>Há mais de uma década, surgiu uma misteriosa passagem chamada "portal", que conecta este mundo a
+                        uma dimensão diferente, o que fez com que pessoas despertassem poderes únicos…</p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item" id="third-img">
+                <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-landscape.webp" alt="Anime 3">
+                <div class="caption">
+                    <img src="carousel-img/class-room-of-the-elite/class-room-of-the-elite-tittle.webp"
+                        alt="Titulo anime 3">
+                    <h6>Dub | Leg</h6>
+                    <p>Kiyotaka Ayanokouji acaba de se matricular no Colégio Tokyo Koudo Ikusei, onde dizem que 100% dos
+                        seus alunos entram na faculdade ou arranjam um bom emprego.Infelizmente, ele vai parar na sala
+                        1-D, onde ficam todos... </p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item" id="fourth-img">
+                <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-landscape.webp" alt="Anime 4">
+                <div class="caption">
+                    <img src="carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-tittle.webp"
+                        alt="Titulo anime 4">
+                    <h6>Dub | Leg</h6>
+                    <p>Tudo começou com as "17 Origens", cujos poderes foram transmitidos a indivíduos que ainda existem
+                        em todo o mundo nos dias de hoje. Um homem misterioso carregando um caixão e uma garota </p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item" id="fifth-img">
+                <img src="carousel-img/villainess-lv99/villainess-lv99-tittle-landscape.webp" alt="Anime 5">
+                <div class="caption">
+                    <img src="carousel-img/villainess-lv99/villainess-lv99-tittle.webp" alt="Titulo anime 5">
+                    <h6>Dub | Leg</h6>
+                    <p>Essa estudante universitária só quer uma vida tranquila. Então, quando renasce como Yumiella, a
+                        vilã oculta de um jogo otome, ela não fica muito empolgada… Ainda ansiando por paz, ela abandona
+                        suas tarefas...</p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item" id="sixth-img">
+                <img src="carousel-img/cherry-magic/cherry-magic-landscape.webp" alt="Anime 6">
+                <div class="caption">
+                    <img src="carousel-img/cherry-magic/cherry-magic-tittle.webp" alt="Titulo anime 6">
+                    <h6>Dub | Leg</h6>
+                    <p>No aniversário de 30 anos de Adachi, que ainda é virgem, ele recebeu um presente inusitado: a
+                        habilidade de ler a mente de qualquer pessoa que ele toque. Refletindo sobre o que fazer com
+                        esse poder... </p>
+                    <button class="btn btn-warning"><img src="icons/play-outline-black.svg " alt="icone play">COMEÇAR A
+                        ASSITIR S1 E1</button>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-anime" data-bs-slide="prev" class="carousel-control-prev w-0" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-anime" data-bs-slide="next" class="carousel-control-next w-0" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </section>
     </div>
     <div class="alert alert-dismissible">
         <button class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
-        <div class="text">Ao clicar em "Aceitar todos os cookies", concorda com o armazenamento de cookies no seu dispositivo para melhorar a navegação no site, analisar a utilização do site e ajudar nas nossas iniciativas de marketing.</div>
+        <div class="text">Ao clicar em "Aceitar todos os cookies", concorda com o armazenamento de cookies no seu
+            dispositivo para melhorar a navegação no site, analisar a utilização do site e ajudar nas nossas iniciativas
+            de marketing.</div>
         <button class="btn btn-primary first" data-bs-dismiss="alert">Definições de cookies</button>
         <button class="btn btn-primary" data-bs-dismiss="alert">Rejeitar Todos</button>
         <button class="btn btn-primary" data-bs-dismiss="alert">Aceitar todos os cookies</button>
@@ -196,25 +212,31 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">JUJUTSU KAISEN</h5> <h6>4.9</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">JUJUTSU KAISEN</h5>
+                            <h6>4.9</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/jujustu-kaisen.jpe" alt="jujutsu kaisen">
                         <div class="card-body">
-                            <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt="icone play"></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt="icone bookmark"></a>
-                            <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt="icone mais"></a>
+                            <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg"
+                                    alt="icone play"></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt="icone bookmark"></a>
+                            <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg"
+                                    alt="icone mais"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">CHAINSAW MAN</h5> <h6>4.8</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">CHAINSAW MAN</h5>
+                            <h6>4.8</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/chainsaw-man.jpe" alt="chainsaw man">
                         <div class="card-body">
                             <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt=""></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt=""></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt=""></a>
                             <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt=""></a>
                         </div>
                     </div>
@@ -222,12 +244,14 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">BUNGO STRAY</h5> <h6>4.9</h6><img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">BUNGO STRAY</h5>
+                            <h6>4.9</h6><img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/bungo-stray-dogs.jpe" alt="bungo stray dogs">
                         <div class="card-body">
                             <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt=""></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt=""></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt=""></a>
                             <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt=""></a>
                         </div>
                     </div>
@@ -237,25 +261,31 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">ONE PIECE</h5> <h6>5.0</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">ONE PIECE</h5>
+                            <h6>5.0</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/one-peace-grid.jpe" alt="One Peace">
                         <div class="card-body">
-                            <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt="icone play"></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt="icone bookmark"></a>
-                            <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt="icone mais"></a>
+                            <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg"
+                                    alt="icone play"></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt="icone bookmark"></a>
+                            <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg"
+                                    alt="icone mais"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">CODE GEASS</h5> <h6>4.7</h6> <img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">CODE GEASS</h5>
+                            <h6>4.7</h6> <img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/code-geass.jpe" alt="chainsaw man">
                         <div class="card-body">
                             <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt=""></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt=""></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt=""></a>
                             <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt=""></a>
                         </div>
                     </div>
@@ -263,12 +293,14 @@
                 <div class="col-3">
                     <div class="card text-bg-dark">
                         <div class="card-header">
-                            <h5 class="card-title">VINLAND SAGA</h5> <h6>4.8</h6><img src="icons/star-full-grey.png" alt="estrela">
+                            <h5 class="card-title">VINLAND SAGA</h5>
+                            <h6>4.8</h6><img src="icons/star-full-grey.png" alt="estrela">
                         </div>
                         <img src="grid/vinland-saga.jpe" alt="bungo stray dogs">
                         <div class="card-body">
                             <a href="#" title="Reproduzir S1 E1"><img src="icons/play-outline-orange.svg" alt=""></a>
-                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg" alt=""></a>
+                            <a href="#" title="Adicionar à Lista"><img src="icons/bookmark-outline-orange.svg"
+                                    alt=""></a>
                             <a href="#" title="Adicionar à Crunchylista"><img src="icons/plus-orange.svg" alt=""></a>
                         </div>
                     </div>
@@ -277,23 +309,23 @@
         </div>
     </section>
     <footer>
-    <div class="gradient">
-        <section id="cat-end">
-            <div class="container sleep">
-                <div class="box">
-                    <img src="icons/yuzu.png" alt="Gato preguiçoso">
-                    <h2>Ainda está procurando algo pra assistir?</h2>
-                    <h2>Confira o nosso acervo completo</h2>
-                    <button type="button" class="btn btn-warning bottom">VER TUDO</button>
+        <div class="gradient">
+            <section id="cat-end">
+                <div class="container sleep">
+                    <div class="box">
+                        <img src="icons/yuzu.png" alt="Gato preguiçoso">
+                        <h2>Ainda está procurando algo pra assistir?</h2>
+                        <h2>Confira o nosso acervo completo</h2>
+                        <button type="button" class="btn btn-warning bottom">VER TUDO</button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
             <div class="flex">
                 <div class="container end">
                     <img src="icons/sony_pictures_logo.png" alt="Sony logo">
                     <h4 id="nome">&#169; Crunchyroll, LLC</h4>
                     <div class="btn-group dropup">
-                        <button data-bs-toggle="dropdown" id="language"  class="dropdown-toggle">
+                        <button data-bs-toggle="dropdown" id="language" class="dropdown-toggle">
                             PORTUGUÊS (BRASIL)
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark">
@@ -319,9 +351,10 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
     </footer>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

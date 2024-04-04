@@ -355,7 +355,7 @@ p{
     }
 
     #fourth-img img{
-        content: url(carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-vertical.png);
+        content: url(carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-vertical-black.png);
     }
 
     #fifth-img img{
@@ -363,7 +363,7 @@ p{
     }
 
     #sixth-img img{
-        content: url(carousel-img/cherry-magic/cherry-magic-vertical.png);
+        content: url(carousel-img/cherry-magic/cherry-magic-vertical-black.png);
     }
 
     .carousel-item img {
@@ -402,6 +402,19 @@ p{
     }
 
     .alert {
-        display: none;
+        width: 100%;
+        padding-top: 3em;
+        margin: 0;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+   
+
+    .blue {
+        width: 99%;
+        margin: 1em 0;
     }
 }

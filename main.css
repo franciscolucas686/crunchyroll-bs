@@ -420,11 +420,47 @@ p{
         margin: 1em 0;
     }
 
-    #grid {
-        display: none;
+    .row> .col-sm-12 {
+        padding: 1.5em 0;
+        
     }
 
-    footer {
-        display: none;
+    .cat-end {
+        height: 10%;
+    }
+
+    .box img {
+        margin-bottom: 1em;
+    }
+
+    .box h2 {
+        font-size: 2.5em;
+    }
+
+    .bottom {
+        margin-top: 1em;
+    }
+
+    .sleep {
+        height: 60vh;
+    }
+
+    .end {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #nome {
+        padding-top: 1em;
+    }
+
+    #language { 
+        margin-top: 1em;
+        font-size: 1.4em;
+    }
+
+    .final {
+        width: 100%;
     }
 }

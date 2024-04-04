@@ -374,6 +374,10 @@ p{
     .carousel-item img {
         width: 100vw;
     }
+
+    .carousel-item {
+        overflow-x: hidden;
+    }
     
     .caption {
         width: 100vw;
@@ -403,7 +407,7 @@ p{
     }
 
     .alert {
-        width: 400px;
+        width: 100%;
         padding-top: 3em;
         margin: 0;
         display: block;
@@ -414,5 +418,13 @@ p{
     .blue {
         width: 99%;
         margin: 1em 0;
+    }
+
+    #grid {
+        display: none;
+    }
+
+    footer {
+        display: none;
     }
 }

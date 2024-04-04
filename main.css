@@ -338,7 +338,11 @@ p{
         display: none;
     }
 
-    #first-img{
+    #carousel-anime {
+        margin-bottom: 1em;
+    }
+
+    #first-img img{
         content: url(carousel-img/one-peace/one-peace-vertical.png);
     }
 
@@ -372,8 +376,8 @@ p{
     
     .caption {
         width: 100vw;
-        background-color: red;
-        position: initial;
+        top: 76%;
+        left: 5%;
     }
     
     .caption img {
@@ -388,12 +392,9 @@ p{
         width: 90%;
     }
 
-    .caption button>img {  
-        width: 
-    }
-
     .carousel-indicators{
-        display: none;
+        top: 98%;
+        left: -4%;
     }
 
     .carousel-control-prev, .carousel-control-next{

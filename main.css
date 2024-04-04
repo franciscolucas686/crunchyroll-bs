@@ -322,6 +322,10 @@ p{
 
 @media screen and (max-width: 640px){
 
+    body {
+        overflow-x: hidden;
+    }
+
     header{
         padding-top: .5em;
     }

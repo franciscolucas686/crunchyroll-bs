@@ -321,6 +321,7 @@ p{
 }
 
 @media screen and (max-width: 640px){
+
     header{
         padding-top: .5em;
     }
@@ -369,10 +370,6 @@ p{
     .carousel-item img {
         width: 100vw;
     }
-
-    .carousel-item{
-
-    }
     
     .caption {
         width: 100vw;
@@ -402,7 +399,7 @@ p{
     }
 
     .alert {
-        width: 100%;
+        width: 400px;
         padding-top: 3em;
         margin: 0;
         display: block;

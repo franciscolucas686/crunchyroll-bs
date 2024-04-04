@@ -402,7 +402,7 @@ p{
     }
 
     .alert {
-        width: 75%;
+        width: 100%;
         padding-top: 3em;
         margin: 0;
         display: block;

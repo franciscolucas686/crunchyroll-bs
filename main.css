@@ -196,6 +196,10 @@ p{
     margin-top: 3em;
 }
 
+.row> .col-sm-12 {
+    padding: 1.5em 1.5em;
+}
+
 .card {
     border-radius: 0;
     cursor: pointer;
@@ -414,12 +418,8 @@ p{
 
     .row> .col-sm-12 {
         padding: 1.5em 0;
-        
     }
 
-    .cat-end {
-        height: 10%;
-    }
 
     .box img {
         margin-bottom: 1em;

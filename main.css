@@ -338,36 +338,42 @@ p{
         display: none;
     }
 
-    #first-img img{
-        content: url(carousel-img/one-peace/one-peace-vertical.webp);
+    #first-img{
+        content: url(carousel-img/one-peace/one-peace-vertical.png);
     }
 
     #second-img img{
-        content: url(carousel-img/solo-leveling/solo-leveling-vertical.webp);
+        content: url(carousel-img/solo-leveling/solo-leveling-vertical.png);
     }
 
     #third-img img{
-        content: url(carousel-img/class-room-of-the-elite/class-room-of-the-elite-vertical.webp);
+        content: url(carousel-img/class-room-of-the-elite/class-room-of-the-elite-vertical-Copia-_2_.png);
     }
 
     #fourth-img img{
-        content: url(carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-vertical.webp);
+        content: url(carousel-img/the-witch-and-the-beast/the-witch-and-the-beast-vertical.png);
     }
 
     #fifth-img img{
-        content: url(carousel-img/villainess-lv99/villainess-lv99-tittle-vertical.webp);
+        content: url(carousel-img/villainess-lv99/villainess-lv99-tittle-vertical.png);
     }
 
     #sixth-img img{
-        content: url(carousel-img/cherry-magic/cherry-magic-vertical.webp);
+        content: url(carousel-img/cherry-magic/cherry-magic-vertical.png);
     }
 
     .carousel-item img {
         width: 100vw;
     }
+
+    .carousel-item{
+
+    }
     
     .caption {
         width: 100vw;
+        background-color: red;
+        position: initial;
     }
     
     .caption img {

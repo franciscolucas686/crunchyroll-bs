@@ -402,16 +402,13 @@ p{
     }
 
     .alert {
-        width: 100%;
+        width: 75%;
         padding-top: 3em;
         margin: 0;
         display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        position: initial;
+        position: fixed;
     }
-
-   
 
     .blue {
         width: 99%;
